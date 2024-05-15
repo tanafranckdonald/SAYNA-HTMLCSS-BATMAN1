@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./Assets/CSS/style.css">
 </head>
 <body>
+    <!--header Entete de votre body-->
     <header>
         <nav> 
             <a href="index.html">
@@ -20,9 +21,11 @@
             </ul>
         </nav>
     </header>
+    <!--main corps de votre body la partie amener à changer d'une page à une autre-->
     <main>
-<!--les reseaux sociaux avec le scrolling-->
-<!-- premiere section Entete (Heroheader) -->
+    <!--les reseaux sociaux avec le scrolling-->
+
+    <!-- premiere section Entete (Heroheader) -->
         <section>
             <div>
                 <p>Au nom de ses parents assassinés, Bruce Wayne mène
@@ -40,7 +43,7 @@
                 <img src="./Assets/Logos/flèche_down_header.png" alt="">
             </div>
         </section>
-<!-- deuxieme section Batman au cinema -->
+    <!-- deuxieme section Batman au cinema -->
         <section>
             <div>
                 <div>
@@ -75,7 +78,7 @@
                 </div>    
             </div>
         </section>
-<!-- troisieme section NEMESIS -->
+    <!-- troisieme section NEMESIS -->
         <section>
             <div>
                 <div>
@@ -109,7 +112,7 @@
                 </div>    
             </div>    
         </section>
-<!-- quatrieme section allies-->
+    <!-- quatrieme section allies-->
         <section>
             <div>
                 <div>
@@ -144,7 +147,7 @@
                 </div>    
             </div>                    
         </section>
-<!-- cinquieme section justice league-->
+    <!-- cinquieme section justice league-->
         <section>
             <div>
                 <div>
@@ -163,16 +166,19 @@
                 </div>    
             </div>                               
         </section>
-<!-- sixieme section multimedia-->
+    <!-- sixieme section multimedia-->
         <section>
             <div>
+                <h1>
+                    MULTIMÉDIA
+                </h1>
                 <div>
                     <img src="./Assets/Illustrations/Bathome_ba1.png" alt=""> 
                 </div>
                 <div>
-                    <h4>A c t i o n , A d v e n t u r e</h4>
-                    <p>Batman Begins</p>
-                    <P>IMDB: 8.2</P>
+                    <h2>A c t i o n , A d v e n t u r e</h2>
+                    <h3>Batman Begins</h3>
+                    <P>IMDB: <span style="color: orange;">8.2</span></P>
                     <P>
                         Le jeune Bruce Wayne assiste impuissant au meurtre de ses
                         parents. Profondément traumatisé, il grandit obnubilé par un
@@ -183,34 +189,68 @@
                         dans la lutte contre le crime sous le nom de Batman.
                     </P>
                 </div>
-                <img src="./Assets/Illustrations/Bathome_ba2.png" alt="">  
+                <div>
+                    <img src="./Assets/Illustrations/Bathome_ba2.png" alt=""> 
+                </div> 
             </div>       
         </section>
-<!-- septieme section Formulaire-->
-        <section>
+    <!-- septieme section Formulaire Prenons contact-->
+        <section>     
             <div>
-                <img src="./Assets/Illustrations/Menu_déroulant.png" alt="">
-            </div>          
-        </section>
-<!-- huitieme section citation-->
-        <section>
-             <div>
-                <img src="./Assets/Illustrations/citation_substitu.png" alt="">
-             </div>               
+                <h2>PRENONS CONTACT</h2>
+                <form action="">
+                    <label for="email">ADRESSE EMAIL</label><br><br>
+                    <input type="email" name="email" placeholder="Adresse email"></input><br><br>
+                    <label for="newsletter">NEWSLETTER</label><br><br>
+                    <label for="">En cochant cette case vous acceptez de recevoir votre l'actualité concernant les <br>
+                    aventures de Batman : </label>
+                    <input type="checkbox"></input>
+                    <div>
+                        <span>Choississez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
+                        <span><img src="./Assets/Logos/icon_flèche_2.png" alt=""></span>
+                    </div>
+                    <div>
+                        <p>Souhaitez-vous recevoir des news</p>
+                    </div>
+                    <a href="">Des films</a>
+                    <a href="">Des comics</a>
+                    <a href="">De tout</a><br>
+                    <textarea name="" id="" placeholder="Laissez un commentaire pour la communauté"></textarea>
+                    <input type="submit" value="CONFIRMER">
+                </form>
+            </div>     
         </section>
     </main>
+    <!-- huitieme section citation-->
+        <section>
+            <div>
+                <div>
+                    <img src="./Assets/Logos/icon_guillemets_1.png" alt="">
+                </div>   
+                <div>
+                    <h4>La seule façon raisonnable de vivre en ce bas monde, <br>c’est en dehors des règles.</h4>
+                    <P>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</P>
+                    <p>The dark kninght : Le chevalier Noir - <br>Le Joker a Batman (2006 )</p>
+                </div> 
+                <div>
+                    <img src="./Assets/Logos/icon_guillemets_2.png" alt="">
+                </div>         
+                <div>
+                    <img src="./Assets/Logos/icon_WB.png" alt="">
+                </div>
+            </div>
+        </section>
+    <!--footer pied de page de votre body--> 
     <footer>
         <div>
-            <img src="./Assets/Logos/icon_WB.png" alt="">
-            <P>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</P>
-        </div>
-        <div>
-            <img src="./Assets/Logos/logo_sayna_white.png" alt="">
-            <img src="./Assets/Logos/icon_x.png" alt="">
-            <img src="./Assets/Logos/icon_DC.png" alt="">
-            <img src="./Assets/Logos/icon_facebook.png" alt="">
-            <img src="./Assets/Logos/icon_ig.png" alt="">
-            <img src="./Assets/Logos/icon_tw.png" alt="">
+            <div>
+                <a href="#"><img src="./Assets/Logos/logo_sayna_white.png" alt=""></a>
+                <a href="#"><img src="./Assets/Logos/icon_x.png" alt=""></a>
+                <a href="#"><img src="./Assets/Logos/icon_DC.png" alt=""></a>
+                <a href="#"><img src="./Assets/Logos/icon_facebook.png" alt=""></a>
+                <a href="#"><img src="./Assets/Logos/icon_ig.png" alt=""></a>
+                <a href="#"><img src="./Assets/Logos/icon_tw.png" alt=""></a>
+            </div>
         </div>
     </footer>
 </body>
